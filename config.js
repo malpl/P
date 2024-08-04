@@ -29,16 +29,16 @@ global.info = {
 
 // Thumbnail 
 global.media = {
- profil: 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
- did: 'https://telegra.ph/file/fdc1a8b08fe63520f4339.jpg',
- rules: 'https://telegra.ph/file/afcfa712bd09f4fcf027a.jpg',
- thumbnail: 'https://telegra.ph/file/161c0a22c03f7859c7599.jpg',
- thumb: 'https://telegra.ph/file/161c0a22c03f7859c7599.jpg',
- logo: 'https://telegra.ph/file/161c0a22c03f7859c7599.jpg',
- unReg: 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
- registrasi: 'https://telegra.ph/file/0169f000c9ddc7c3315ff.jpg',
- confess: 'https://telegra.ph/file/03cabea082a122abfa5be.jpg',
- akses: 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg', 
+ profil: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ did: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ rules: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ thumbnail: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ thumb: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ logo: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ unReg: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ registrasi: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ confess: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg',
+ akses: 'https://telegra.ph/file/e20babc427bc4f7f9bb45.jpg', 
  wel: 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4', // gif welcome 
  bye: 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4', // gif good bye
  sound: 'https://media.vocaroo.com/mp3/1awgSZYHXP3B' // untuk menu
