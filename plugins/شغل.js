@@ -1,22 +1,22 @@
 import yts from 'yt-search'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper-sosmed'
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw ` مثال :\n*.play* sami yusuf`
+  if (!text) throw ` 例子 :\n*.play* sami yusuf`
   let res = await yts(text)
   let vid = res.videos[0]
   await conn.sendMessage(m.chat, { react: { text: "⏳",key: m.key,}
   })  
-  if (!vid) throw 'لم يتم العثور عليه، حاول عكس العنوان والمؤلف'
+  if (!vid) throw '找不到，請嘗試顛倒標題和作者'
   let { title, description, thumbnail, videoId, durationH, viewH, publishedTime } = vid
   const url = 'https://www.youtube.com/watch?v=' + videoId
-let vap = `*〔 Y O U T U B E P L A Y 〕*
+let vap = `*〔 機器人粉碎MALIK 〕*
 
-*عنوان المقطع:* ${title}
-*رابط المقطع:* ${url}
-*وصف المقطع:* ${description}
-*تاريخ نشره:* ${publishedTime}
-*مدته:* ${durationH}
-*عدد المشاهدات:* ${viewH}`
+*章節標題:* ${title}
+*剪輯連結:* ${url}
+*該部分的描述:* ${description}
+*發布日期:* ${publishedTime}
+*其持續時間:* ${durationH}
+*觀看次數:* ${viewH}`
 
 conn.sendMessage(m.chat, {
 text: vap,
@@ -46,9 +46,9 @@ thumbnail: await(await conn.getFile(thumbnail)).data
   }
   return conn.sendMessage(m.chat, doc, { quoted: m })
 }
-handler.help = ['song','play']
+handler.help = ['song','play','شغل']
 handler.tags = ['downloader']
-handler.command = /^song|play$/i
+handler.command = /^song|play|شغل|اغنيه$/i
 
 export default handler
 
