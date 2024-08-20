@@ -18,12 +18,10 @@ const fkontak = {
 
     conn.sendMessage(m.chat, { text: text, mentions: participants.map(a => a.id) }, {quoted:fkontak})
     }
-handler.help = ['hidetag']
+handler.help = ['mm']
 handler.tags = ['owner']
-handler.command = /^(hidetag)$/i
+handler.command = /^(mm)$/i
 
 handler.group = true
-handler.admin = true
-handler.owner = true
 
 export default handler
