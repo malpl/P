@@ -5,14 +5,14 @@ let handler = async (m, { conn, command }) => {
 		let pp = await conn
 			.profilePictureUrl(q.chat, "image")
 			.catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png");
-		conn.sendFile(m.chat, pp, "nih bang.png", "*MＡⱢᎥꝄ‽*支持禁止接近的危險 一個經過驗證的號碼，沒有任何問題，\n 請不要封鎖該號碼，因為它對我和我的工作非常重要。 \n 好的，谢谢支持团队 ¥¥¥¥¥¥\n🥶 https://chat.whatsapp.com/CUyxsz7kb7nCJLIocNoGeC 🥶", m, {
+		conn.sendFile(m.chat, pp, "nih bang.png", "*MＡⱢᎥꝄ‽碰撞*\n 您的個人資料圖片已被撤回 ", m, {
 			jpegThumbnail: await (await fetch(pp)).buffer(),
 		});
 	} catch {
 		let pp = await conn
 			.profilePictureUrl(m.chat, "image")
 			.catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png");
-		conn.sendFile(m.chat, pp, "ppsad.png", "*MＡⱢᎥꝄ‽*支持禁止接近的危險 一個經過驗證的號碼，沒有任何問題，\n 請不要封鎖該號碼，因為它對我和我的工作非常重要。 \n 好的，谢谢支持团队 ¥¥¥¥¥¥\n🥶 https://chat.whatsapp.com/CUyxsz7kb7nCJLIocNoGeC 🥶", m, {
+		conn.sendFile(m.chat, pp, "ppsad.png", "*MＡⱢᎥꝄ‽碰撞*\n 您的個人資料圖片已被撤回 ", m, {
 			jpegThumbnail: await (await fetch(pp)).buffer(),
 		});
 	}
