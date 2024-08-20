@@ -8,9 +8,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
           mentionedJid: [m.sender]
       }
   })
-  m.reply(`_يتم إرسال الرسالة إلى صاحب البوت، ...  بمجرد ان يقرأ صاحب البوت هذه الرسالة سيتم الرد عليكم لا تقلقوا ._\n*انا بوبيزة رفيقتك♥*`)
+  m.reply(`_يتم إرسال الرسالة إلى صاحب البوت، ...  بمجرد ان يقرأ صاحب البوت هذه الرسالة سيتم الرد عليكم لا تقلقوا ._\n*你好，我是機器人的主人*`)
 }
 handler.help = ['report']
 handler.tags = ['infobot']
-handler.command = /^(report)$/i
+handler.command = /^(report|ابلاغ)$/i
 export default handler
