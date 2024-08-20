@@ -9,36 +9,36 @@ global.setting = {
  }
 
 global.owner = [
-['212717457920', 'Nour', true],
-['212605784394', 'silana', false],
+['201030825867', 'Nour', true],
+['201030825867', 'silana', false],
 ['', '', false]
 ]
 
 global.info = {
- nomerbot: '212605784394',
- pairingNumber: '212693227969',
+ nomerbot: '201030825867',
+ pairingNumber: '201030825867',
  nameown: 'Nour',
- nomerown: '212717457920',
- packname: 'sticker by ',
- author: 'Noureddine',
- namebot: 'ꜱɪʟᴀɴᴀ',
- wm: ''-'_꩜ 𝘚𝘪𝘭𝘢𝘯𝘢 𝘣𝘰𝘵 ꩜_'-'',
+ nomerown: '201030825867',
+ packname: '𝑴𝑨𝑳𝑰𝑲🍷🇰🇼﴿01030825867﴾',
+ author: 'MALIKCRASH',
+ namebot: '𝑴𝑨𝑳𝑰𝑲🍷🇰🇼 CRASH',
+ wm: ''-'ألخ ــط ــر|𝑴𝑨𝑳𝑰𝑲🍷🇰🇼﴿01030825867﴾'-'',
  stickpack: 'Whatsapp',
- stickauth: 'ꜱɪʟᴀɴᴀ ʙᴏᴛ '
+ stickauth: 'MALIK ʙᴏᴛ '
 }
 
 // Thumbnail 
 global.media = {
- profil: 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
- did: 'https://telegra.ph/file/fdc1a8b08fe63520f4339.jpg',
- rules: 'https://telegra.ph/file/afcfa712bd09f4fcf027a.jpg',
- thumbnail: 'https://telegra.ph/file/161c0a22c03f7859c7599.jpg',
- thumb: 'https://telegra.ph/file/161c0a22c03f7859c7599.jpg',
- logo: 'https://telegra.ph/file/161c0a22c03f7859c7599.jpg',
- unReg: 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
- registrasi: 'https://telegra.ph/file/0169f000c9ddc7c3315ff.jpg',
- confess: 'https://telegra.ph/file/03cabea082a122abfa5be.jpg',
- akses: 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg', 
+ profil: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ did: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ rules: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ thumbnail: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ thumb: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ logo: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ unReg: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ registrasi: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ confess: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg',
+ akses: 'https://telegra.ph/file/f79a37d8a61d83336a721.jpg', 
  wel: 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4', // gif welcome 
  bye: 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4', // gif good bye
  sound: 'https://media.vocaroo.com/mp3/1awgSZYHXP3B' // untuk menu
@@ -46,9 +46,9 @@ global.media = {
 
 // Sosmed
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://github.com/noureddineouafy',
- sgc: 'https://chat.whatsapp.com/DABxracGsi5CQMd5d1N1j7'
+ sig: '//wa.me/+201030825867',
+ sgh:  'https://wa.me/+201030825867',
+ sgc: 'https://chat.whatsapp.com/CUyxsz7kb7nCJLIocNoGeC'
 }
 
 global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
@@ -56,7 +56,7 @@ global.wait =` انتظر .. أنا أحاول تلبية طلبك ...`
 // Info Wait
 global.msg = {
  wait: '⏱️ *Please be patient*\n\> Running command from *User*!',
- eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *Bobiza Bot*. There was an error in the system while executing the command.'
+ eror: '🤖*Bot Information*\n\> Sorry for the inconvenience in using *MALIK Bot*. There was an error in the system while executing the command.'
 }
 
 global.multiplier = 69
