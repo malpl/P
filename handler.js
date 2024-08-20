@@ -101,7 +101,7 @@ export async function handler(chatUpdate) {
                     isBanned: false,
                     antiSpam: true,
                     acc: false,
-                    welcome: true,
+                    welcome: false,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
